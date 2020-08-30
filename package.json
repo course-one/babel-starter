@@ -1,0 +1,31 @@
+{
+  "name": "babel-starter",
+  "version": "1.0.0",
+  "description": "Boilerplate to transpile JavaScript using Babel.",
+  "main": "index.js",
+  "scripts": {
+    "compile": "babel"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/course-one/babel-starter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/course-one/babel-starter/issues"
+  },
+  "homepage": "https://github.com/course-one/babel-starter#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.11.4",
+    "@babel/plugin-transform-runtime": "^7.11.0",
+    "@babel/preset-env": "^7.11.0"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.11.2",
+    "core-js": "^3.6.5",
+    "regenerator-runtime": "^0.13.7"
+  }
+}
